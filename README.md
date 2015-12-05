@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/ota42y/git-auto.svg?style=svg)](https://circleci.com/gh/ota42y/git-auto)
+[![Coverage Status](https://coveralls.io/repos/ota42y/git-auto/badge.svg?branch=master&service=github)](https://coveralls.io/github/ota42y/git-auto?branch=master)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ota42y/git-auto/blob/master/LICENSE)
 
 # git-auto
