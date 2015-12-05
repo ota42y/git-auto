@@ -1,6 +1,10 @@
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ota42y/git-auto/blob/master/LICENSE)
+
 # git-auto
 
 ## Description
+A git auto commit tool.
+Watch current directory change, and auto commit.
 
 ## Usage
 
@@ -30,3 +34,6 @@ $ go get -d github.com/ota42y/git-auto
 ## Author
 
 [ota42y](https://github.com/ota42y)
+
+## Licence
+MIT: [https://github.com/ota42y/git-auto/blob/master/LICENSE](https://github.com/ota42y/git-auto/blob/master/LICENSE)
