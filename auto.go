@@ -77,22 +77,15 @@ func commitFile(filepath string, message string) {
 }
 
 func gitCommit(message string) {
-	out, err := exec.Command("git", "commit", "-m", message).CombinedOutput()
+	_, err := exec.Command("git", "commit", "-m", message).CombinedOutput()
 	if err != nil {
-		log.Println(string(out))
 		log.Println("git commit fall", err, message)
 	}else{
-		log.Println(string(out))
+		log.Println("commit ", message)
 	}
 }
 
 func gitAdd(filepath string) bool {
-	out, err := exec.Command("git", "add", filepath).CombinedOutput()
-	if err != nil {
-		log.Println(string(out))
-		log.Println("git add fail", err)
-		return false
-	}
-	log.Println(string(out))
-	return true
+	_, err := exec.Command("git", "add", filepath).CombinedOutput()
+	return err == nil
 }
