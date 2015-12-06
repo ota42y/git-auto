@@ -23,6 +23,12 @@ To install, use `go get`:
 $ go get -d github.com/ota42y/git-auto
 ```
 
+## Feature
+- [ ] change commit message
+- [ ] guard specific branch commit
+- [ ] manual commit
+
+
 ## Contribution
 
 1. Fork ([https://github.com/ota42y/git-auto/fork](https://github.com/ota42y/git-auto/fork))
